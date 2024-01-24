@@ -4,7 +4,7 @@ export default function TeamProject() {
   const data = [
     {
       name: 'Code Crush',
-      videoUrl: '',
+      videoUrl: 'images/frontend/codecrush.png',
       type: 'individual',
       tech: 'ReactJS, SASS, omdbAPI',
       desc:

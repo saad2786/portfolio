@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="flex-1 flex items-end justify-end h-full max-sm:m-12  
+          className="flex-1 flex items-end justify-end h-full max-sm:m-12  max-sm:h-[20vh]
          "
         >
           <img

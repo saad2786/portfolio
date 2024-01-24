@@ -3,76 +3,8 @@ import PortCard from './PortCard'
 export default function AllProjects() {
   const data = [
     {
-      name: 'Code Crush',
-      videoUrl: '',
-      type: 'Team',
-      tech: 'ReactJS, SASS, omdbAPI',
-      desc:
-        'It is e-learning platform for begginers to practice programming languages and more.For more click visit   ',
-      github: 'https://github.com/saad2786/codecrush1',
-      visit: 'https://www.thecodecrush.com',
-    },
-
-    {
-      name: 'Dashboard',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'ReactJS, SASS, Chart.js',
-      desc:
-        'Beautiful UI of dashboard and functionalities given using Reactjs.',
-      github: 'https://github.com/saad2786/dashboard',
-      visit: 'https://dashbaord-react.netlify.app/',
-    },
-    {
-      name: 'Perfomance Page',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'ReactJS, SASS, Chart.js',
-      desc:
-        'Beautiful UI of dashboard and functionalities given using Reactjs.',
-      github: 'https://github.com/saad2786',
-      visit: 'https://mockups-1.netlify.app',
-    },
-    {
-      name: 'Packaging List Web App',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'ReactJS, SASS, omdbAPI',
-      desc:
-        'It is app in which we can make list of things to pack while traveling',
-      github: 'https://github.com/saad2786/packing_list',
-      visit: 'https://makepackinglist.netlify.app/',
-    },
-    {
-      name: 'Weather App',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'EJS, CSS, Javascript',
-      desc: 'App to search weather of any place by location name',
-      github: 'https://github.com/saad2786/weather',
-      visit: '',
-    },
-    {
-      name: 'Simon Game',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'HTML, CSS, Javascript',
-      desc: 'It is Simon game app.',
-      github: 'https://github.com/saad2786/Boss_level_challenge_2',
-      visit: 'https://saad2786.github.io/Boss_level_challenge_2/',
-    },
-    {
-      name: 'Dice Game',
-      videoUrl: '',
-      type: 'individual',
-      tech: 'HTML, CSS, Javascript',
-      desc: 'It is a two player dice game',
-      github: 'https://github.com/saad2786/Dice-Game',
-      visit: 'https://md-saad-23.netlify.app',
-    },
-    {
       name: 'Movie Rating App',
-      videoUrl: '',
+      videoUrl: 'images/backend/movie.png',
       type: 'individual',
       tech: 'ReactJS, CSS, ContextAPI, express, MongoDB',
       desc:
@@ -82,7 +14,7 @@ export default function AllProjects() {
     },
     {
       name: 'Social Media Web App',
-      videoUrl: '',
+      videoUrl: 'images/backend/social.png',
       type: 'individual',
       tech: 'ReactJS, SASS, ContextAPI, express, MongoDB',
       desc:
@@ -92,7 +24,7 @@ export default function AllProjects() {
     },
     {
       name: 'E-commerce Website',
-      videoUrl: '',
+      videoUrl: 'images/backend/ecommerce.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Strapi, Stripe, express, MySql',
       desc:
@@ -102,7 +34,7 @@ export default function AllProjects() {
     },
     {
       name: 'ToDo List Web App',
-      videoUrl: '',
+      videoUrl: 'images/backend/todo.png',
       type: 'individual',
       tech: 'EJS, js, CSS, mongoDB, Node.js',
       desc:
@@ -112,13 +44,80 @@ export default function AllProjects() {
     },
     {
       name: 'Invoice Wep App',
-      videoUrl: '',
+      videoUrl: 'images/backend/invoice.png',
       type: 'individual',
       tech: 'ReactJS, SASS, REST, MongoDB, Node.JS',
       desc:
         'In this app we can make records of customer and diplay it app which have bought how many items and total amount of it',
       github: 'https://github.com/saad2786',
       visit: '',
+    },
+    {
+      name: 'Code Crush',
+      videoUrl: 'images/frontend/codecrush.png',
+      type: 'individual',
+      tech: 'ReactJS, SASS, omdbAPI',
+      desc:
+        'It is e-learning platform for begginers to practice programming languages and more.For more click visit   ',
+      github: 'https://github.com/saad2786/codecrush1',
+      visit: 'https://www.thecodecrush.com',
+    },
+    {
+      name: 'Dashboard',
+      videoUrl: 'images/frontend/dashboard.png',
+      type: 'individual',
+      tech: 'ReactJS, SASS, Chart.js',
+      desc:
+        'Beautiful UI of dashboard and functionalities given using Reactjs.',
+      github: 'https://github.com/saad2786/dashboard',
+      visit: 'https://dashbaord-react.netlify.app/',
+    },
+    {
+      name: 'Perfomance Page',
+      videoUrl: 'images/frontend/performance.png',
+      type: 'individual',
+      tech: 'ReactJS, SASS, Chart.js',
+      desc:
+        'Beautiful UI of dashboard and functionalities given using Reactjs.',
+      github: 'https://github.com/saad2786',
+      visit: 'https://mockups-1.netlify.app',
+    },
+    {
+      name: 'Packaging List Web App',
+      videoUrl: 'images/frontend/packinglist.png',
+      type: 'individual',
+      tech: 'ReactJS, SASS, omdbAPI',
+      desc:
+        'It is app in which we can make list of things to pack while traveling',
+      github: 'https://github.com/saad2786/packing_list',
+      visit: 'https://makepackinglist.netlify.app/',
+    },
+    {
+      name: 'Weather App',
+      videoUrl: 'images/frontend/weather.png',
+      type: 'individual',
+      tech: 'EJS, CSS, Javascript',
+      desc: 'App to search weather of any place by location name',
+      github: 'https://github.com/saad2786/weather',
+      visit: '',
+    },
+    {
+      name: 'Simon Game',
+      videoUrl: 'images/frontend/simon.png',
+      type: 'individual',
+      tech: 'HTML, CSS, Javascript',
+      desc: 'It is Simon game app.',
+      github: 'https://github.com/saad2786/Boss_level_challenge_2',
+      visit: 'https://saad2786.github.io/Boss_level_challenge_2/',
+    },
+    {
+      name: 'Dice Game',
+      videoUrl: 'images/frontend/dice.png',
+      type: 'individual',
+      tech: 'HTML, CSS, Javascript',
+      desc: 'It is a two player dice game',
+      github: 'https://github.com/saad2786/Dice-Game',
+      visit: 'https://md-saad-23.netlify.app',
     },
   ]
   return (

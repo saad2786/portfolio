@@ -4,7 +4,7 @@ export default function Backend() {
   const data = [
     {
       name: 'Movie Rating App',
-      videoUrl: '',
+      videoUrl: 'images/backend/movie.png',
       type: 'individual',
       tech: 'ReactJS, CSS, ContextAPI, express, MongoDB',
       desc:
@@ -14,7 +14,7 @@ export default function Backend() {
     },
     {
       name: 'Social Media Web App',
-      videoUrl: '',
+      videoUrl: 'images/backend/social.png',
       type: 'individual',
       tech: 'ReactJS, SASS, ContextAPI, express, MongoDB',
       desc:
@@ -24,7 +24,7 @@ export default function Backend() {
     },
     {
       name: 'E-commerce Website',
-      videoUrl: '',
+      videoUrl: 'images/backend/ecommerce.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Strapi, Stripe, express, MySql',
       desc:
@@ -34,7 +34,7 @@ export default function Backend() {
     },
     {
       name: 'ToDo List Web App',
-      videoUrl: '',
+      videoUrl: 'images/backend/todo.png',
       type: 'individual',
       tech: 'EJS, js, CSS, mongoDB, Node.js',
       desc:
@@ -44,7 +44,7 @@ export default function Backend() {
     },
     {
       name: 'Invoice Wep App',
-      videoUrl: '',
+      videoUrl: 'images/backend/invoice.png',
       type: 'individual',
       tech: 'ReactJS, SASS, REST, MongoDB, Node.JS',
       desc:

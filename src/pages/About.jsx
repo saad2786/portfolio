@@ -1,5 +1,3 @@
-// import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard'
-// import StorageIcon from '@mui/icons-material/Storage'
 import Heading from '../components/Heading'
 import PropTypes from 'prop-types'
 import Container from '../components/Container'
@@ -8,9 +6,9 @@ export default function About() {
     <>
       <Container>
         <Heading>About Me</Heading>
-        <div className="capitalize h-1/5 py-5 pl-8 max-sm:pl-2 font-ubuntu text-center ">
+        <div className="capitalize h-1/5 py-5 pl-24 max-sm:pl-2 font-ubuntu  ">
           <h2 className="text-3xl max-sm:text-xl font-light mb-4 ">
-            I&apos;m <span className="font-bold  ">Saad Patil,</span> Web
+            I&apos;m <span className="font-bold ">Saad Patil,</span> Web
             Developer / Programmer
           </h2>
           <p className="text-[12px] max-sm:text-[11px] text-wrap">
@@ -22,8 +20,8 @@ export default function About() {
             and contribute to dynamic teams in the field of web development.
           </p>
         </div>
-        <div className="uppercase pl-8 h-3/5 flex">
-          <div className="w-[67%] py-6  max-sm:hidden bg-black text-white flex swing-in-top-fwd">
+        <div className="uppercase  pl-8 h-3/5 flex">
+          <div className="w-[67%] py-6 max-sm:w-[70vw] max-sm:h-56 max-sm:mt-32 bg-black text-white flex swing-in-top-fwd">
             <div className="border-r-2 border-gray-600 flex-1 flex flex-col px-8   ">
               <div
                 className="flex-1 *:w-fit flex
@@ -61,11 +59,13 @@ export default function About() {
                 <h1 className="font-extrabold text-3xl text-[#e3bc6f] hover:text-yellow-400">
                   150+
                 </h1>
-                <p className="text-xs mt-2 font-medium">Problem Solved</p>
+                <p className="text-xs mt-2 font-medium">
+                  Problem <span className="max-sm:hidden">Solved</span>
+                </p>
               </div>
             </div>
           </div>
-          <div className="pl-8 pt-2 w-[33%] max-sm:w-[80%]  font-jos max-sm:mt-32 text-center  ">
+          <div className="pl-8 pt-2 w-[33%] max-sm:w-[80%]  font-jos max-sm:mt-32 text-center max-sm:hidden  ">
             <h1 className="text-xl font-extrabold mb-2  ">What I Do!</h1>
             <div
               className="flex items-center h-
