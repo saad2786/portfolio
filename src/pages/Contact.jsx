@@ -39,10 +39,10 @@ export default function Contact() {
             </div>
           </Link>
         </div>
-        <p className="text-sm font-light text-center  max-sm:w-fit  max-sm:left-16 ">
+        <p className="text-sm font-light text-center  max-sm:w-fit  max-sm:hidden ">
           Copyright&copy; 2023 | Developed by Saad Patil{' '}
         </p>
-      </div>  
+      </div>
     </Container>
   )
 }

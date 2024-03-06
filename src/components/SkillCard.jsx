@@ -1,14 +1,14 @@
-import LinearProgress from '@mui/joy/LinearProgress'
+// import LinearProgress from '@mui/joy/LinearProgress'
 export default function SkillCard({
   background,
   icon,
   name,
   desc,
-  percent,
+ 
   active,
 }) {
   return (
-    <div className="rounded-xl relative py-4 max-sm:py-10 px-16 max-sm:px-10 max-sm:mb-12 border-gray-500 border-2 w-[40%] max-sm:w-[65vw] max-sm:h-[35%]  h-40 mb-8 border-dashed bg-gray-200 slide-in-blurred-top ">
+    <div className="rounded-xl relative py-4 max-sm:py-10 px-16 max-sm:px-10 max-sm:mb-12 border-gray-500 border-2 w-[40%] max-sm:w-[65vw] max-sm:h-[40%]  h-40 mb-8 border-dashed bg-gray-200 slide-in-blurred-top ">
       <div
         className={`rounded-full z-10 border-[5px] bg-re text-whitei  border-white w-20 h-20 p-4 text-sm  absolute -left-8 -top-8 `}
         style={{ backgroundColor: background }}
@@ -33,13 +33,13 @@ export default function SkillCard({
         {desc}
       </p>
 
-      <div className=" absolute bottom-4 left-0 right-0 px-12 ">
+      {/* <div className=" absolute bottom-4 max-sm:bottom-8 left-0 right-0 px-12 ">
         <LinearProgress
           determinate
           sx={{ color: '#FF004D', backgroundColor: '#B6BBC4' }}
           value={percent}
         />
-      </div>
+      </div> */}
     </div>
   )
 }

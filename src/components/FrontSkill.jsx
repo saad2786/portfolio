@@ -64,7 +64,7 @@ export default function FrontSkill() {
             icon={skill.icon}
             name={skill.name}
             desc={skill.desc}
-            percent={skill.percent}
+            
             active={skill.active}
           />
         )

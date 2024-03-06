@@ -13,19 +13,20 @@ import AppLayout from './pages/AppLayout'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import Resume from './pages/Resume'
 import Skill from './pages/Skill'
 import FrontSkill from './components/FrontSkill'
 import BackSkill from './components/BackSkill'
 import Database from './components/Database'
 import ProgramSkill from './components/ProgramSkill'
-
-// import About from './pages/About'
+// import Stars from './Stars'
 
 function App() {
-  return (
-    <div className="w-[100vw] h-[100vh] box-border  ">
+  return (<>
+
+    <div className="w-screen h-screen box-border overflow-scroll sm:overflow-auto  ">
+   
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -51,10 +52,11 @@ function App() {
         </Routes>
       </Router>
     </div>
+  </>
   )
 }
 
 export default App
-App.PropTypes = {
-  children: PropTypes.node,
-}
+// App.PropTypes = {
+//   children: PropTypes.node,
+// }

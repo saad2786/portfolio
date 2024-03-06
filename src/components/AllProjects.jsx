@@ -4,7 +4,7 @@ export default function AllProjects() {
   const data = [
     {
       name: 'Movie Rating App',
-      videoUrl: 'images/backend/movie.png',
+      videoUrl: 'images/movie.png',
       type: 'individual',
       tech: 'ReactJS, CSS, ContextAPI, express, MongoDB',
       desc:
@@ -14,7 +14,7 @@ export default function AllProjects() {
     },
     {
       name: 'Social Media Web App',
-      videoUrl: 'images/backend/social.png',
+      videoUrl: 'images/social.png',
       type: 'individual',
       tech: 'ReactJS, SASS, ContextAPI, express, MongoDB',
       desc:
@@ -24,7 +24,7 @@ export default function AllProjects() {
     },
     {
       name: 'E-commerce Website',
-      videoUrl: 'images/backend/ecommerce.png',
+      videoUrl: 'images/ecommerce.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Strapi, Stripe, express, MySql',
       desc:
@@ -34,7 +34,7 @@ export default function AllProjects() {
     },
     {
       name: 'ToDo List Web App',
-      videoUrl: 'images/backend/todo.png',
+      videoUrl: 'images/todo.png',
       type: 'individual',
       tech: 'EJS, js, CSS, mongoDB, Node.js',
       desc:
@@ -44,7 +44,7 @@ export default function AllProjects() {
     },
     {
       name: 'Invoice Wep App',
-      videoUrl: 'images/backend/invoice.png',
+      videoUrl: 'images/invoice.png',
       type: 'individual',
       tech: 'ReactJS, SASS, REST, MongoDB, Node.JS',
       desc:
@@ -54,7 +54,7 @@ export default function AllProjects() {
     },
     {
       name: 'Code Crush',
-      videoUrl: 'images/frontend/codecrush.png',
+      videoUrl: 'images/codecrush.png',
       type: 'individual',
       tech: 'ReactJS, SASS, omdbAPI',
       desc:
@@ -64,7 +64,7 @@ export default function AllProjects() {
     },
     {
       name: 'Dashboard',
-      videoUrl: 'images/frontend/dashboard.png',
+      videoUrl: 'images/dashboard.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Chart.js',
       desc:
@@ -74,7 +74,7 @@ export default function AllProjects() {
     },
     {
       name: 'Perfomance Page',
-      videoUrl: 'images/frontend/performance.png',
+      videoUrl: 'images/performance.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Chart.js',
       desc:
@@ -84,7 +84,7 @@ export default function AllProjects() {
     },
     {
       name: 'Packaging List Web App',
-      videoUrl: 'images/frontend/packinglist.png',
+      videoUrl: 'images/packinglist.png',
       type: 'individual',
       tech: 'ReactJS, SASS, omdbAPI',
       desc:
@@ -94,7 +94,7 @@ export default function AllProjects() {
     },
     {
       name: 'Weather App',
-      videoUrl: 'images/frontend/weather.png',
+      videoUrl: 'images/weather.png',
       type: 'individual',
       tech: 'EJS, CSS, Javascript',
       desc: 'App to search weather of any place by location name',
@@ -103,7 +103,7 @@ export default function AllProjects() {
     },
     {
       name: 'Simon Game',
-      videoUrl: 'images/frontend/simon.png',
+      videoUrl: 'images/simon.png',
       type: 'individual',
       tech: 'HTML, CSS, Javascript',
       desc: 'It is Simon game app.',
@@ -112,7 +112,7 @@ export default function AllProjects() {
     },
     {
       name: 'Dice Game',
-      videoUrl: 'images/frontend/dice.png',
+      videoUrl: 'images/dice.png',
       type: 'individual',
       tech: 'HTML, CSS, Javascript',
       desc: 'It is a two player dice game',

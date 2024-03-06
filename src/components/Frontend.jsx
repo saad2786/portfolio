@@ -4,7 +4,7 @@ export default function Frontend() {
   const data = [
     {
       name: 'Code Crush',
-      videoUrl: 'images/frontend/codecrush.png',
+      videoUrl: 'images/codecrush.png',
       type: 'individual',
       tech: 'ReactJS, SASS, omdbAPI',
       desc:
@@ -14,7 +14,7 @@ export default function Frontend() {
     },
     {
       name: 'Dashboard',
-      videoUrl: 'images/frontend/dashboard.png',
+      videoUrl: 'images/dashboard.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Chart.js',
       desc:
@@ -24,7 +24,7 @@ export default function Frontend() {
     },
     {
       name: 'Perfomance Page',
-      videoUrl: 'images/frontend/performance.png',
+      videoUrl: 'images/performance.png',
       type: 'individual',
       tech: 'ReactJS, SASS, Chart.js',
       desc:
@@ -34,7 +34,7 @@ export default function Frontend() {
     },
     {
       name: 'Packaging List Web App',
-      videoUrl: 'images/frontend/packinglist.png',
+      videoUrl: 'images/packinglist.png',
       type: 'individual',
       tech: 'ReactJS, SASS, omdbAPI',
       desc:
@@ -44,7 +44,7 @@ export default function Frontend() {
     },
     {
       name: 'Weather App',
-      videoUrl: 'images/frontend/weather.png',
+      videoUrl: 'images/weather.png',
       type: 'individual',
       tech: 'EJS, CSS, Javascript',
       desc: 'App to search weather of any place by location name',
@@ -53,7 +53,7 @@ export default function Frontend() {
     },
     {
       name: 'Simon Game',
-      videoUrl: 'images/frontend/simon.png',
+      videoUrl: 'images/simon.png',
       type: 'individual',
       tech: 'HTML, CSS, Javascript',
       desc: 'It is Simon game app.',
@@ -62,7 +62,7 @@ export default function Frontend() {
     },
     {
       name: 'Dice Game',
-      videoUrl: 'images/frontend/dice.png',
+      videoUrl: 'images/dice.png',
       type: 'individual',
       tech: 'HTML, CSS, Javascript',
       desc: 'It is a two player dice game',

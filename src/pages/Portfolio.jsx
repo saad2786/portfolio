@@ -6,9 +6,10 @@ export default function Portfolio() {
   return (
     <Container>
       <Heading>Portfolio</Heading>
-      <div className="px-8 h-4/5 w-full max-sm:w-[90vw]">
+      <div className="h-[80vh] mx-auto w-full  ">
         <ContentNav />
-        <div className="flex w-full  gap-8 items-center justify-between flex-wrap h-[90%]  mt-8  p-4  overflow-scroll slide-in-bottom ">
+        <div className='flex sm:gap-6  items-start justify-evenly  flex-wrap  w-[80vw]  h-[84%] pt-10  
+        overflow-y-scroll '>
           <Outlet />
         </div>
       </div>
